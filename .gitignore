@@ -1,0 +1,11 @@
+docs/
+**/.ipynb_checkpoints/
+**/models/
+.idea/
+
+# AzureML notebooks
+*.amlignore
+*.amltmp
+*.amltemp
+**/.ipynb_aml_checkpoints/
+**/runs/
