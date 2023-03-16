@@ -9,3 +9,4 @@ docs/
 *.amltemp
 **/.ipynb_aml_checkpoints/
 **/runs/
+**/logs/**
