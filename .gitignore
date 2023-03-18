@@ -8,5 +8,12 @@ docs/
 *.amltmp
 *.amltemp
 **/.ipynb_aml_checkpoints/
+
+# Logs and runs
 **/runs/
 **/logs/**
+**/logs_multiclass_onehot/**
+**/logs_multiclass_integer/**
+
+# Model saves
+*.h5
