@@ -16,6 +16,7 @@ docs/
 **/logs_multiclass_integer/**
 **/logs_multilabel/**
 **/logs_linear_regression_simple/**
+**/logs_nonlinear_regression_multiple/**
 
 # hyperparameter search
 **/random_search/**
