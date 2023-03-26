@@ -18,6 +18,10 @@ docs/
 **/logs_linear_regression_simple/**
 **/logs_nonlinear_regression_multiple/**
 
+# data
+**/cats_and_dogs_filtered/**
+cats_and_dogs_filtered.zip
+
 # hyperparameter search
 **/random_search/**
 
