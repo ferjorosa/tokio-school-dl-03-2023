@@ -17,6 +17,7 @@ docs/
 **/logs_multilabel/**
 **/logs_linear_regression_simple/**
 **/logs_nonlinear_regression_multiple/**
+**/logs_cats_and_dogs/**
 
 # data
 **/cats_and_dogs_filtered/**
