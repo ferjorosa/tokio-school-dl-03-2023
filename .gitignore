@@ -18,6 +18,8 @@ docs/
 **/logs_linear_regression_simple/**
 **/logs_nonlinear_regression_multiple/**
 **/logs_cats_and_dogs/**
+**/logs_cats_and_dogs_resnet/**
+**/logs_cats_and_dogs_resnet50/**
 
 # data
 **/cats_and_dogs_filtered/**
