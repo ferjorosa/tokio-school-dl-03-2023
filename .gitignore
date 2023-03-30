@@ -22,6 +22,7 @@ docs/
 **/logs_cats_and_dogs_resnet50/**
 **/logs_cats_and_dogs_transfer/**
 **/logs_cats_and_dogs_transfer_dense/**
+**/logs_cats_and_dogs_transfer_finetuned/**
 
 # data
 **/cats_and_dogs_filtered/**
