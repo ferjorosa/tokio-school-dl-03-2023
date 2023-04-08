@@ -23,6 +23,7 @@ docs/
 **/logs_cats_and_dogs_transfer/**
 **/logs_cats_and_dogs_transfer_dense/**
 **/logs_cats_and_dogs_transfer_finetuned/**
+**/gans/**
 
 # data
 **/cats_and_dogs_filtered/**
