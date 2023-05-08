@@ -1,1 +1,5 @@
 pip install tensorflow_datasets
+pip install gymnasium
+pip install imageio
+pip install imageio_ffmpeg
+pip install gymnasium[toy-text]
