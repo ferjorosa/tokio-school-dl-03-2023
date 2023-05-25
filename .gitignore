@@ -2,6 +2,7 @@ docs/
 **/.ipynb_checkpoints/
 **/models/
 .idea/
+**/__pycache__/**
 
 # AzureML notebooks
 *.amlignore
@@ -24,6 +25,7 @@ docs/
 **/logs_cats_and_dogs_transfer_dense/**
 **/logs_cats_and_dogs_transfer_finetuned/**
 **/gans/**
+**/bcw_model/**
 
 # data
 **/cats_and_dogs_filtered/**

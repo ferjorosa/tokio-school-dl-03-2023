@@ -1,0 +1,65 @@
+openapi: 3.0.0
+info:
+  title: "Flask REST API"
+  description: "API Breast Cancer Wisconsin"
+  version: "1.0.0"
+
+servers:
+  - url: "/api"
+
+paths:
+  /analysis:
+    get:
+      operationId: "functions.predict"
+      tags:
+        - Predecir
+      summary: "Devuelve la predicción del modelo para una instancia"
+      parameters:
+        - in: query
+          name: clump_thickness
+          required: true
+          schema: 
+            type: integer   
+        - in: query
+          name: uniformity_of_cell_size
+          required: true
+          schema: 
+            type: integer   
+        - in: query
+          name: uniformity_of_cell_shape
+          required: true
+          schema: 
+            type: integer   
+        - in: query
+          name: marginal_adhesion
+          required: true
+          schema: 
+            type: integer   
+        - in: query
+          name: single_epithelial_cell_size
+          required: true
+          schema: 
+            type: integer   
+        - in: query
+          name: bare_nuclei
+          required: true
+          schema: 
+            type: integer   
+        - in: query
+          name: bland_chromatin
+          required: true
+          schema: 
+            type: integer   
+        - in: query
+          name: normal_nucleoli
+          required: true
+          schema: 
+            type: integer                                                                   
+        - in: query
+          name: mitoses
+          required: true
+          schema: 
+            type: integer   
+      responses:
+        "200":
+          description: "Se ha procesado la petición correctamente"
